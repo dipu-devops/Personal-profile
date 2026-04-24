@@ -1,0 +1,9 @@
+{
+  "name": "personal-profile",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static personal profile site for Dipu Singh",
+  "engines": {
+    "node": "24.x"
+  }
+}

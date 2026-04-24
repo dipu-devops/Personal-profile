@@ -1,55 +1,548 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="Dipu's Portfolio" content="Portfolio content" />
-    <meta property="og:title" content="Dipu Portfolio" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://github.com/dipu-devops" />
-    <meta name="description" content="Dipu's Personal Portfolio Website" property="og:description">
-    <meta name="description" content="/icons/desc.png" property="og:image">
-    <meta name="keywords" content="Dipu, PortFolio, MasterPortfolio, Dipu's Portfolio" />
-    <meta name="author" content="Dipu" />
-    <meta name="application-name" content="Dipu's PortFolio" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/icons//android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#000000">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-8856447829714090", enable_page_level_ads: !0 })</script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-825508380"></script>
-    <script>function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "AW-825508380")</script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158726526-1"></script>
-    <script>function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-158726526-1")</script>
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
-    <title>Dipu's Portfolio</title>
-    <link href="/static/css/main.c7bd84a9.chunk.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dipu Singh | Cloud & DevOps Engineer</title>
+  <meta
+    name="description"
+    content="Cloud and DevOps Engineer with 4+ years of experience across AWS and Azure, focused on Kubernetes, Terraform, CI/CD, observability, and reliable production delivery."
+  >
+  <meta
+    name="keywords"
+    content="Dipu Singh, DevOps Engineer, Cloud Engineer, Kubernetes, Terraform, AWS, Azure, CI/CD, Platform Engineer"
+  >
+  <meta name="author" content="Dipu Singh">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Dipu Singh | Cloud & DevOps Engineer">
+  <meta
+    property="og:description"
+    content="Building reliable cloud infrastructure, Kubernetes platforms, and fast deployment pipelines across AWS and Azure."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/static/media/dipu_singh.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dipu Singh | Cloud & DevOps Engineer">
+  <meta
+    name="twitter:description"
+    content="Cloud and DevOps Engineer specializing in Kubernetes, Terraform, CI/CD, observability, and production automation."
+  >
+  <meta name="twitter:image" content="/static/media/dipu_singh.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="preload" href="/static/media/GoogleSans-Regular.b5c77a6a.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="/static/media/GoogleSans-Bold.4457817a.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="/static/media/Montserrat-Regular.ee653992.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
 </head>
+<body>
+  <div class="page-progress" aria-hidden="true"></div>
+  <div class="hero-halo hero-halo-one" aria-hidden="true"></div>
+  <div class="hero-halo hero-halo-two" aria-hidden="true"></div>
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="icon-mail" viewBox="0 0 24 24">
+      <path d="M4 7.5h16v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="m5.5 8.5 6.5 5 6.5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24">
+      <path d="M8.2 5.8c.5-.6 1.3-.9 2.1-.7l1.7.4c.8.2 1.4.9 1.5 1.7l.2 1.9c0 .6-.2 1.1-.6 1.4l-1.1 1a13 13 0 0 0 4.3 4.3l1-1.1c.4-.4.9-.7 1.4-.6l1.9.2c.8.1 1.5.7 1.7 1.5l.4 1.7c.2.8-.1 1.6-.7 2.1l-1.2 1a3 3 0 0 1-3 .5A19 19 0 0 1 3.5 8.9a3 3 0 0 1 .5-3l1-1.1Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-resume" viewBox="0 0 24 24">
+      <path d="M7 3.5h7l4 4v13a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 6 20.5V5A1.5 1.5 0 0 1 7.5 3.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M14 3.8v4.1h4.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M9 12h6M9 15h6M9 18h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-github" viewBox="0 0 24 24">
+      <path d="M9 18c-3 .9-3-1.5-4.2-1.8M18 18.7v-2.2c0-.7-.1-1.2-.6-1.7 2.1-.2 4.4-1 4.4-4.8 0-1.1-.4-2-1-2.7.1-.2.5-1.3-.1-2.8 0 0-.9-.3-2.9 1.1a10 10 0 0 0-5.2 0c-2-1.4-2.9-1.1-2.9-1.1-.6 1.5-.2 2.6-.1 2.8-.7.7-1 1.6-1 2.7 0 3.8 2.3 4.6 4.4 4.8-.4.4-.6 1-.6 1.7v2.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M12 2.8a9.2 9.2 0 0 0-2.9 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24">
+      <rect x="3.5" y="3.5" width="17" height="17" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+      <circle cx="8.2" cy="9" r="1.3" fill="currentColor"/>
+      <path d="M7 11.2v5.8M11.3 17v-5.8h2.4c1.7 0 3.1 1.4 3.1 3.1V17M14.4 11.2v5.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-aws" viewBox="0 0 24 24">
+      <path d="M6.2 14.2c1.5 1 3.7 1.7 5.7 1.9 2.6.2 4.9-.4 6.7-1.6" fill="none" stroke="#ff9900" stroke-width="1.9" stroke-linecap="round"/>
+      <path d="M8 11.5 9.7 7h1.2l1.7 4.5M8.5 10.2h3.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M14.5 11.5V7.1h1.4c1.6 0 2.6.7 2.6 2.2 0 1.4-1 2.2-2.6 2.2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-azure" viewBox="0 0 24 24">
+      <path d="M13.5 4 6 18h4.1l1.6-3.1 3.8 3.1H20L13.5 4Z" fill="#0f6cbd"/>
+      <path d="M12.2 11.4 15.8 18H10l2.2-4.2Z" fill="#53b1fd"/>
+    </symbol>
+    <symbol id="icon-kubernetes" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="5.2" fill="none" stroke="#326ce5" stroke-width="1.8"/>
+      <circle cx="12" cy="12" r="1.7" fill="#326ce5"/>
+      <path d="M12 4.4v2.4M12 17.2v2.4M4.4 12h2.4M17.2 12h2.4M6.6 6.6 8.3 8.3M15.7 15.7l1.7 1.7M17.4 6.6l-1.7 1.7M8.3 15.7l-1.7 1.7" fill="none" stroke="#326ce5" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-terraform" viewBox="0 0 24 24">
+      <path d="M6 5.5 11.3 8.6v6.1L6 11.6V5.5Z" fill="#7b42bc"/>
+      <path d="M12.7 9.3 18 12.4v6.1l-5.3-3.1V9.3Z" fill="#5f2da8"/>
+      <path d="M12.7 3.8 18 6.9 12.7 10 7.4 6.9l5.3-3.1Z" fill="#b58ae0"/>
+    </symbol>
+    <symbol id="icon-gitlab" viewBox="0 0 24 24">
+      <path d="m12 18.7 4.6-6.4H7.4L12 18.7Z" fill="#fc6d26"/>
+      <path d="m7.4 12.3 1.8-5.8 2.8 12.2-4.6-6.4Z" fill="#e24329"/>
+      <path d="m16.6 12.3-1.8-5.8L12 18.7l4.6-6.4Z" fill="#e24329"/>
+      <path d="M9.2 6.5h5.6l1.8 5.8H7.4l1.8-5.8Z" fill="#fca326"/>
+    </symbol>
+    <symbol id="icon-azure-devops" viewBox="0 0 24 24">
+      <path d="M8.2 7.2 14.8 4l4.2 2.2v11.6L14.8 20l-6.6-3.2 3.9-2 3.8 1.7v-8l-3.8 1.7-3.9-2Z" fill="#2563eb"/>
+      <path d="m5 8.3 7 3.7L5 15.7V8.3Z" fill="#60a5fa"/>
+    </symbol>
+    <symbol id="icon-argocd" viewBox="0 0 24 24">
+      <path d="M12 4.5a7.5 7.5 0 0 1 6.5 3.7" fill="none" stroke="#ef7b4d" stroke-width="1.9" stroke-linecap="round"/>
+      <path d="m17.2 6.2 1.8 2.1-2.7.3" fill="none" stroke="#ef7b4d" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M18.4 12a7.5 7.5 0 0 1-6.5 7.5" fill="none" stroke="#3b82f6" stroke-width="1.9" stroke-linecap="round"/>
+      <path d="m13.8 17.6-1.8 1.9 2.8.3" fill="none" stroke="#3b82f6" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M5.6 12A7.5 7.5 0 0 1 12 4.5" fill="none" stroke="#111827" stroke-width="1.9" stroke-linecap="round"/>
+      <path d="m10.2 6.4 1.8-1.9-2.8-.3" fill="none" stroke="#111827" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-prometheus" viewBox="0 0 24 24">
+      <path d="M12 4.4c2.8 0 5 2.3 5 5.2 0 2.1-1.2 3.9-2.9 4.8v2.2l1.8 1.2v1.1H8.1v-1.1l1.8-1.2v-2.2A5.3 5.3 0 0 1 7 9.6c0-2.9 2.2-5.2 5-5.2Z" fill="#e6522c"/>
+      <path d="M10 21h4" fill="none" stroke="#e6522c" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M9 10.5h1.7l1.2-2.2 1.4 4 1-1.8H15" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-grafana" viewBox="0 0 24 24">
+      <path d="M12 6.2a5.8 5.8 0 0 1 5.8 5.8 5.8 5.8 0 0 1-5.8 5.8A5.8 5.8 0 0 1 6.2 12 5.8 5.8 0 0 1 12 6.2Z" fill="#f97316"/>
+      <circle cx="12" cy="12" r="2.3" fill="#ffffff"/>
+      <path d="M12 2.9v2.2M18.4 5.6l-1.5 1.5M21.1 12h-2.2M18.4 18.4l-1.5-1.5M12 21.1v-2.2M5.6 18.4l1.5-1.5M2.9 12h2.2M5.6 5.6l1.5 1.5" fill="none" stroke="#f97316" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+  </svg>
 
-<body><noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script>!function (l) { function e(e) { for (var r, t, n = e[0], o = e[1], u = e[2], f = 0, i = []; f < n.length; f++)t = n[f], Object.prototype.hasOwnProperty.call(p, t) && p[t] && i.push(p[t][0]), p[t] = 0; for (r in o) Object.prototype.hasOwnProperty.call(o, r) && (l[r] = o[r]); for (s && s(e); i.length;)i.shift()(); return c.push.apply(c, u || []), a() } function a() { for (var e, r = 0; r < c.length; r++) { for (var t = c[r], n = !0, o = 1; o < t.length; o++) { var u = t[o]; 0 !== p[u] && (n = !1) } n && (c.splice(r--, 1), e = f(f.s = t[0])) } return e } var t = {}, p = { 1: 0 }, c = []; function f(e) { if (t[e]) return t[e].exports; var r = t[e] = { i: e, l: !1, exports: {} }; return l[e].call(r.exports, r, r.exports, f), r.l = !0, r.exports } f.m = l, f.c = t, f.d = function (e, r, t) { f.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t }) }, f.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, f.t = function (r, e) { if (1 & e && (r = f(r)), 8 & e) return r; if (4 & e && "object" == typeof r && r && r.__esModule) return r; var t = Object.create(null); if (f.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: r }), 2 & e && "string" != typeof r) for (var n in r) f.d(t, n, function (e) { return r[e] }.bind(null, n)); return t }, f.n = function (e) { var r = e && e.__esModule ? function () { return e.default } : function () { return e }; return f.d(r, "a", r), r }, f.o = function (e, r) { return Object.prototype.hasOwnProperty.call(e, r) }, f.p = "/"; var r = this.webpackJsonpundefined = this.webpackJsonpundefined || [], n = r.push.bind(r); r.push = e, r = r.slice(); for (var o = 0; o < r.length; o++)e(r[o]); var s = n; a() }([])</script>
-    <script src="/static/js/2.1dc913aa.chunk.js"></script>
-    <script src="/static/js/main.796b512c.chunk.js"></script>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Dipu Singh home">
+        <span class="brand-mark">DS</span>
+        <span class="brand-copy">
+          <strong>Dipu Singh</strong>
+          <span>Cloud &amp; DevOps Engineer</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#impact">Impact</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="header-cta" href="/Dipu_Singh_CV.pdf" target="_blank" rel="noreferrer">Download CV</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-shell">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Cloud and DevOps Engineer</p>
+          <h1>I help teams ship faster without making production fragile.</h1>
+          <p class="hero-text">
+            Based in Guwahati, Assam. Over the last 4+ years, I have worked across AWS and Azure,
+            built CI/CD pipelines, moved workloads to Kubernetes, automated infrastructure with Terraform,
+            and improved monitoring, rollback, and security practices for live systems.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:dipudevops@outlook.com">Email Me</a>
+            <a class="button button-secondary" href="https://www.linkedin.com/in/erdipusingh/" target="_blank" rel="noreferrer">View LinkedIn</a>
+          </div>
+
+          <ul class="hero-proof" aria-label="Core focus areas">
+            <li>AWS and Azure delivery</li>
+            <li>AKS and EKS operations</li>
+            <li>Terraform and CI/CD automation</li>
+          </ul>
+
+          <div class="hero-links">
+            <a href="mailto:dipudevops@outlook.com">
+              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-mail"></use></svg>
+              <span>dipudevops@outlook.com</span>
+            </a>
+            <a href="tel:+916003239904">
+              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-phone"></use></svg>
+              <span>+91 6003239904</span>
+            </a>
+            <a href="https://github.com/dipu-devops" target="_blank" rel="noreferrer">
+              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-github"></use></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="/Dipu_Singh_CV.pdf" target="_blank" rel="noreferrer">
+              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-resume"></use></svg>
+              <span>Resume</span>
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-visual" data-reveal>
+          <div class="portrait-card">
+            <div class="portrait-topline">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span>Currently at Insightful IT Services LLP</span>
+            </div>
+
+            <div class="portrait-stage">
+              <img src="/static/media/dipu_singh.png" alt="Portrait of Dipu Singh">
+            </div>
+
+            <div class="portrait-summary">
+              <p>I work best where release engineering, infrastructure automation, and production support overlap.</p>
+            </div>
+          </div>
+
+          <div class="floating-stat floating-stat-left">
+            <span class="floating-label">Deployment cycles</span>
+            <strong>90% faster</strong>
+          </div>
+
+          <div class="floating-stat floating-stat-right">
+            <span class="floating-label">Rollback readiness</span>
+            <strong>Under 10 minutes</strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="stack-strip">
+      <div class="container stack-strip-inner" data-reveal>
+        <p>Core stack</p>
+        <div class="stack-list" aria-label="Core technologies">
+          <div class="stack-item">
+            <span class="stack-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-aws"></use></svg></span>
+            <span>AWS</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-azure"></use></svg></span>
+            <span>Azure</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-kubernetes"></use></svg></span>
+            <span>Kubernetes</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-terraform"></use></svg></span>
+            <span>Terraform</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-gitlab"></use></svg></span>
+            <span>GitLab CI/CD</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-azure-devops"></use></svg></span>
+            <span>Azure DevOps</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-argocd"></use></svg></span>
+            <span>ArgoCD</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-prometheus"></use></svg></span>
+            <span>Prometheus</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-grafana"></use></svg></span>
+            <span>Grafana</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="impact">
+      <div class="container">
+        <div class="section-heading narrow" data-reveal>
+          <p class="eyebrow">Selected impact</p>
+          <h2>Recent work has been about faster delivery, repeatable infrastructure, and calmer production operations.</h2>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card" data-reveal>
+            <span class="stat-label">Deployment speed</span>
+            <strong>90%</strong>
+            <p>Average deployment time reduced after redesigning CI/CD for .NET and Angular applications.</p>
+          </article>
+          <article class="stat-card" data-reveal>
+            <span class="stat-label">Infrastructure coverage</span>
+            <strong>50+</strong>
+            <p>Azure resources provisioned and managed through Terraform instead of manual setup.</p>
+          </article>
+          <article class="stat-card" data-reveal>
+            <span class="stat-label">Cost reduction</span>
+            <strong>40%</strong>
+            <p>Server costs lowered after moving workloads to AKS and tuning autoscaling plus resource limits.</p>
+          </article>
+          <article class="stat-card" data-reveal>
+            <span class="stat-label">Security work</span>
+            <strong>30+</strong>
+            <p>Vulnerabilities remediated across audited applications with stronger configuration and controls.</p>
+          </article>
+        </div>
+
+        <div class="narrative-grid">
+          <article class="story-panel" data-reveal>
+            <p class="mini-label">What I usually own</p>
+            <h3>Delivery pipelines, Kubernetes operations, Terraform automation, monitoring, and release safety.</h3>
+            <p>
+              Most of my recent work sits at the point where developers need faster delivery,
+              platforms need more structure, and production systems need fewer surprises.
+            </p>
+          </article>
+          <article class="story-panel" data-reveal>
+            <p class="mini-label">How I like to work</p>
+            <h3>Clear systems, practical automation, and changes that are easy for teams to trust.</h3>
+            <p>
+              I prefer improvements that reduce manual work, make failures easier to recover from,
+              and leave behind a setup that other engineers can operate confidently.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Experience</p>
+          <h2>Hands-on work across cloud delivery, Kubernetes platforms, and day-to-day production operations.</h2>
+        </div>
+
+        <div class="experience-list">
+          <article class="experience-row" data-reveal>
+            <div class="experience-side">
+              <span class="experience-date">Nov 2023 - Present</span>
+              <h3>DevOps Engineer</h3>
+              <p>Insightful IT Services LLP</p>
+            </div>
+            <div class="experience-main">
+              <p class="experience-summary">
+                Leading delivery and platform work across Azure infrastructure, AKS migrations, monitoring,
+                secret management, and safer release pipelines.
+              </p>
+              <ul>
+                <li>Built end-to-end CI/CD for .NET and Angular applications in GitLab CI/CD, reducing deployment time by 90% and enabling blue-green releases across Dev, Staging, and Production.</li>
+                <li>Managed Azure infrastructure in Terraform across 50+ resources including VMs, storage accounts, virtual networks, NSGs, and security groups.</li>
+                <li>Migrated legacy applications to AKS and tuned autoscaling plus resource limits, reducing server costs by 40% and improving scalability under traffic spikes.</li>
+                <li>Centralized secrets in Azure Key Vault, added Prometheus and Grafana dashboards, and tested Helm rollback paths to bring failed-release recovery below 10 minutes.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-row" data-reveal>
+            <div class="experience-side">
+              <span class="experience-date">Jul 2023 - Aug 2023</span>
+              <h3>DevOps Engineer, Contract</h3>
+              <p>Wingman Partners</p>
+            </div>
+            <div class="experience-main">
+              <p class="experience-summary">
+                Short-term work focused on containerized client delivery, reusable Terraform modules,
+                and performance tuning in Kubernetes environments.
+              </p>
+              <ul>
+                <li>Delivered Dockerized ML-based theft detection deployments for retail clients and reduced setup time by 50% through automated container workflows.</li>
+                <li>Created reusable Terraform modules for AWS EC2, S3, and VPC provisioning to standardize infrastructure setup across multiple engagements.</li>
+                <li>Managed on-premises Kubernetes clusters and tuned scheduling, quotas, and affinity rules to improve latency under peak load.</li>
+                <li>Improved deployment scripts with better idempotency and error handling so client teams could rerun them more safely.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-row" data-reveal>
+            <div class="experience-side">
+              <span class="experience-date">Nov 2020 - Feb 2022</span>
+              <h3>DevOps Engineer</h3>
+              <p>Trusnetix Technologies</p>
+            </div>
+            <div class="experience-main">
+              <p class="experience-summary">
+                Early career role centered on Linux server operations, AWS support, CI/CD foundations,
+                runbooks, and incident response in hybrid environments.
+              </p>
+              <ul>
+                <li>Maintained Linux-based production and staging servers covering configuration, process supervision, user access, and routine maintenance.</li>
+                <li>Supported AWS operations including EC2 provisioning, S3 management, VPC networking, and IAM roles and policies.</li>
+                <li>Built CI/CD foundations for internal tools and applications to reduce manual release effort for the engineering team.</li>
+                <li>Used logs, monitoring, runbooks, and on-call support practices to improve recovery time and handoff quality.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="expertise">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Expertise</p>
+          <h2>The areas I am usually trusted to lead, improve, or unblock.</h2>
+        </div>
+
+        <div class="expertise-grid">
+          <article class="expertise-card" data-reveal>
+            <h3>Release Engineering</h3>
+            <p>CI/CD pipelines for application and database delivery, environment promotion, release gates, rollback planning, and zero-downtime rollout patterns.</p>
+          </article>
+          <article class="expertise-card" data-reveal>
+            <h3>Kubernetes Operations</h3>
+            <p>AKS and EKS workloads, Helm-based deployments, autoscaling, resource tuning, and safer configuration management under production load.</p>
+          </article>
+          <article class="expertise-card" data-reveal>
+            <h3>Infrastructure Automation</h3>
+            <p>Terraform-driven provisioning in AWS and Azure, reusable modules, standardized environments, and less drift between stages.</p>
+          </article>
+          <article class="expertise-card" data-reveal>
+            <h3>Observability and Security</h3>
+            <p>Prometheus, Grafana, CloudWatch, Azure Monitor, secret management, IAM-aware delivery workflows, and practical vulnerability remediation.</p>
+          </article>
+        </div>
+
+        <div class="skills-sheet" data-reveal>
+          <div class="skills-row">
+            <span>Cloud</span>
+            <p>AWS, Azure, EC2, S3, Lambda, VPC, RDS, EKS, IAM, CloudWatch, AKS, Functions, Blob Storage, VMs</p>
+          </div>
+          <div class="skills-row">
+            <span>Containers</span>
+            <p>Docker, Kubernetes, Helm Charts, Azure Container Registry</p>
+          </div>
+          <div class="skills-row">
+            <span>Infrastructure as Code</span>
+            <p>Terraform, AWS CloudFormation, Ansible</p>
+          </div>
+          <div class="skills-row">
+            <span>CI/CD</span>
+            <p>GitLab CI/CD, Azure DevOps, GitHub Actions, ArgoCD</p>
+          </div>
+          <div class="skills-row">
+            <span>Monitoring and Security</span>
+            <p>Prometheus, Grafana, Azure Monitor, CloudWatch, DevSecOps, IAM, vulnerability remediation</p>
+          </div>
+          <div class="skills-row">
+            <span>Scripting and MLOps</span>
+            <p>Bash, Python, Git, Docker-based ML deployments, containerized inference pipelines</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Projects</p>
+          <h2>Representative work from recent platform, cloud, and deployment-focused projects.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-reveal>
+            <p class="mini-label">Multi-cloud</p>
+            <h3>Multi-Cloud Kubernetes Cluster Automation</h3>
+            <p>Built Terraform templates for highly available EKS and AKS clusters to support cross-cloud workload scaling and stronger disaster recovery readiness.</p>
+          </article>
+          <article class="project-card" data-reveal>
+            <p class="mini-label">Serverless delivery</p>
+            <h3>Azure Functions CI/CD Pipeline</h3>
+            <p>Created an Azure DevOps pipeline for testing and deploying 11+ serverless functions and improved release frequency by 70% while preserving quality gates.</p>
+          </article>
+          <article class="project-card" data-reveal>
+            <p class="mini-label">Terraform</p>
+            <h3>AWS Infrastructure Automation</h3>
+            <p>Automated more than 20 AWS resources, including VPC, EC2, RDS, S3, and IAM, with modular Terraform configurations that cut setup time by 80%.</p>
+          </article>
+          <article class="project-card" data-reveal>
+            <p class="mini-label">Basic MLOps</p>
+            <h3>ML Application Deployment Workflow</h3>
+            <p>Containerized a machine learning application using Docker and set up a repeatable deployment flow for inference serving in consistent environments.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="container credentials-grid">
+        <article class="credentials-card" data-reveal>
+          <p class="eyebrow">Education</p>
+          <h2>Academic foundation</h2>
+          <div class="credentials-list">
+            <div>
+              <h3>Bachelor of Technology - Computer Science</h3>
+              <p>Central Institute of Technology Kokrajhar</p>
+              <span>CGPA 7.44</span>
+            </div>
+            <div>
+              <h3>Diploma - Computer Science</h3>
+              <p>Central Institute of Technology Kokrajhar</p>
+              <span>CGPA 7.2</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="credentials-card" data-reveal>
+          <p class="eyebrow">Recognition</p>
+          <h2>Recognition and additional strengths</h2>
+          <div class="credentials-list">
+            <div>
+              <h3>Hackathon Winner</h3>
+              <p>Startup Assam at Tezpur University for building an AR-based teaching application.</p>
+            </div>
+            <div>
+              <h3>Bug Bounty Acknowledgements</h3>
+              <p>Recognized by Google, Seagate, and Dream11 for responsible disclosure of security vulnerabilities.</p>
+            </div>
+            <div>
+              <h3>Languages</h3>
+              <p>English, Hindi, Assamese</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact">
+      <div class="container contact-shell" data-reveal>
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2>Looking for someone who can own delivery, infrastructure, and production reliability end to end?</h2>
+          <p>
+            I am most useful in environments where releases are getting more frequent,
+            cloud costs need attention, or Kubernetes and CI/CD setups need to become easier for teams to trust.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <a class="button button-primary" href="mailto:dipudevops@outlook.com">Start a conversation</a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/erdipusingh/" target="_blank" rel="noreferrer">Open LinkedIn</a>
+          <div class="contact-list">
+            <a href="mailto:dipudevops@outlook.com">
+              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-mail"></use></svg>
+              <span>dipudevops@outlook.com</span>
+            </a>
+            <a href="tel:+916003239904">
+              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-phone"></use></svg>
+              <span>+91 6003239904</span>
+            </a>
+            <a href="https://github.com/dipu-devops" target="_blank" rel="noreferrer">
+              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-github"></use></svg>
+              <span>github.com/dipu-devops</span>
+            </a>
+            <a href="https://www.linkedin.com/in/erdipusingh/" target="_blank" rel="noreferrer">
+              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-linkedin"></use></svg>
+              <span>linkedin.com/in/erdipusingh</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Dipu Singh</p>
+      <p>Cloud &amp; DevOps Engineer</p>
+      <p><span id="current-year"></span></p>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
 </body>
-
 </html>
